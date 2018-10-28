@@ -11,7 +11,7 @@ and repeat for all the 19 zip files containing subjects 10159 - 70086, run
 ./download.sh 
 ```
 
-for simplicity. Unzip all files, and for example pick 20 controls and 20 schizophrenics. Now preprocess the diffusion data, using eddy_correct or eddy in FSL, see preprocess.sh for an example with eddy_correct (which is much faster than eddy)
+for simplicity. Unzip all files, and for example pick 20 controls and 20 schizophrenics. Now preprocess the diffusion data, using eddy_correct or eddy in FSL, see preprocessall.sh for an example with eddy_correct (which is much faster than eddy)
 
 ```
 ./preprocessall.sh
